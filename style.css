@@ -1,0 +1,99 @@
+:root
+{
+    margin: 0;
+    padding: 0;
+}
+a
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+input
+{
+    border: none;
+    padding: 0;
+    outline: 0;
+    width: 35vw;
+    border-radius: 0;
+}
+#container
+{
+    display: grid;
+    grid-template-rows: 50px 1fr 50px;
+}
+#nav-bar
+{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-content:center
+}
+ul li
+{
+    margin: 15px;
+}
+#nav-bar li img
+{
+    width: 20px;
+    height: 20px;
+}
+#sign-in
+{
+    width: 80px;
+    height: 30px;
+    background-color: #4285f4;
+    text-align: center;
+    text-justify: center;
+    border-radius: 5px;
+    
+}
+#mainContent
+{
+    margin: 150px 0;
+    text-align: center;
+}
+form
+{
+    margin-top: 20px;
+}
+.bar
+{
+    border-right: 1px solid #808080 ;
+    margin-right: 5px;
+    padding-right: 5px;
+}
+i
+{
+    padding: 0 10px;
+}
+#buttons
+{
+    margin-top: 40px;
+}
+input[type="button" i]
+{
+    width: 115px;
+    height: 50px;
+    margin:0 25px;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+#Search-bar
+{
+    
+    border: #808080 solid 1px;
+    padding: 10px 1px;
+    border-radius: 20px;
+    height: 40px;
+    width: 30vw;
+}
+#footer
+{
+    background-color: #808080;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-content:center;
+    margin-top: 50px;
+    height: 50px;
+}
